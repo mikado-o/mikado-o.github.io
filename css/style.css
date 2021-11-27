@@ -1,0 +1,408 @@
+/* -------------------------------------------------------------------
+ * Plugin Name           : Matychale - Masonry & Grid Gallery
+ * Author Name           : Yucel Yilmaz
+ * Author URI            : https://codecanyon.net/user/aip_theme3434
+ * Created Date          : 12 February 2020
+ * Version               : 1.0
+ * File Name             : style.css
+------------------------------------------------------------------- */
+/* -------------------------------------------------------------------
+   Base                               
+   ------------------------ /
+ * 01.Base
+ * 02.Typography
+ * 03.Helper Class
+ * 04.Buttons
+ * 05.Hero 
+ * 06.Portfolio (Gallery)
+ * 07.Footer      
+
+------------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+/* 01.Base                               
+/* ---------------------------------------------------------------- */
+body, html {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #616b74;
+  margin: 0;
+  padding: 0;
+}
+
+::-moz-selection {
+  background: #74BDCB;
+  color: #fff;
+}
+
+::selection {
+  background: #74BDCB;
+  color: #fff;
+}
+
+a:link, a:hover, a:active, a:visited {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+textarea, textarea:focus, input, input:focus, button, button:focus {
+  outline: none;
+  resize: inherit;
+}
+
+/* ---------------------------------------------------------------- */
+/* 02.Typography                               
+/* ---------------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #000;
+  text-transform: capitalize;
+  margin: 0;
+  line-height: 1.3;
+}
+
+h1, .h1 {
+  font-size: 3rem;
+}
+
+h2, .h2 {
+  font-size: 46px;
+}
+
+h3, .h3 {
+  font-size: 30px;
+}
+
+h4, .h4 {
+  font-size: 22px;
+}
+
+h5, .h5 {
+  font-size: 20px;
+}
+
+h6, .h6 {
+  font-size: 18px;
+}
+
+p {
+  line-height: 28px;
+  margin: 0;
+}
+
+/* ---------------------------------------------------------------- */
+/* 03.Helper Class                              
+/* ---------------------------------------------------------------- */
+.page-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.section {
+  padding: 50px 0;
+  overflow: hidden;
+}
+
+.section .section-heading {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.section .section-heading .section-sup-title {
+  margin-bottom: 10px;
+  color: #74BDCB;
+  font-weight: 600;
+}
+
+.section .section-heading .section-title {
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.section .section-heading .section-title span {
+  margin-left: 15px;
+  color: #74BDCB;
+}
+
+.section .section-heading .section-title:after, .section .section-heading .section-title:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  border-radius: 100px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.section .section-heading .section-title:after {
+  width: 100px;
+  height: 8px;
+  background: #e0e0e0;
+  bottom: 0;
+}
+
+.section .section-heading .section-title:before {
+  width: 40px;
+  height: 6px;
+  z-index: 5;
+  bottom: -2px;
+}
+
+.pb-minus-70 {
+  padding-bottom: 70px;
+}
+
+/* ---------------------------------------------------------------- */
+/* Responsive Media Query
+ * Extra small devices (portrait phones, less than 576px)
+/* ---------------------------------------------------------------- */
+@media only screen and (max-width: 575.98px) {
+  .section .section-heading .section-title {
+    font-size: 2rem;
+  }
+}
+
+/* ---------------------------------------------------------------- */
+/* 04.Buttons                            
+/* ---------------------------------------------------------------- */
+.default-button {
+  display: inline-block;
+  background: #74BDCB;
+  color: #fff !important;
+  border: 2px solid #fff;
+  padding: 17px 30px;
+  border-radius: 5px;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.default-button:hover {
+  background: #fff;
+  color: #74BDCB !important;
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+/* ---------------------------------------------------------------- */
+/* 05.Hero                               
+/* ---------------------------------------------------------------- */
+.hero {
+  height: 650px;
+  background: #74BDCB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero h2, .hero h1, .hero p {
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  margin-bottom: 10px;
+}
+
+.hero p {
+  line-height: 28px;
+  margin-bottom: 60px;
+  opacity: 0.8;
+}
+
+/* ---------------------------------------------------------------- */
+/* 06.Portfolio (Gallery)                          
+/* ---------------------------------------------------------------- */
+.gallery-filter-btn-wrapper {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.gallery-filter-btn-wrapper a {
+  display: inline-block;
+  padding: 11px 22px;
+  background: #fff;
+  color: #74BDCB;
+  /*border: 2px solid #74BDCB;*/
+  margin-right: 10px;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  border-radius: 10rem;
+}
+
+.gallery-filter-btn-wrapper a:last-child {
+  margin-right: 0;
+}
+
+.gallery-filter-btn-wrapper a.current {
+  background: #74BDCB;
+  color: #fff;
+}
+
+.gallery-filter-btn-wrapper a:hover {
+  background: #74BDCB;
+  color: #fff;
+}
+
+.glry-item {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.glry-item .portfolio-item-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.glry-item .portfolio-item-img img {
+  border-radius: 20px;
+}
+
+.glry-item .portfolio-item-img:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: calc(100% - 30px);
+  height: calc(100% - 30px);
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 20px;
+  background: #fff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transform: scale(0.95) translate(-50%, -50%);
+          transform: scale(0.95) translate(-50%, -50%);
+}
+
+.glry-item .portfolio-detail-title, .glry-item .portfolio-buttons {
+  opacity: 0;
+  left: 50%;
+  position: absolute;
+  visibility: hidden;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.glry-item .portfolio-detail-title {
+  top: 20%;
+  z-index: 14;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.glry-item .portfolio-buttons {
+  top: 50%;
+  margin-top: 20px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.glry-item .portfolio-buttons a {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  display: inline-block;
+  background: #74BDCB;
+  margin-right: 10px;
+  border: 2px solid #74BDCB;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  border-radius: 5px;
+}
+
+.glry-item .portfolio-buttons a:last-child {
+  margin-right: 0;
+}
+
+.glry-item .portfolio-buttons a:hover {
+  background: #fff;
+  color: #74BDCB;
+}
+
+.glry-item:hover .portfolio-item-img:after {
+  -webkit-transform: scale(1) translate(-50%, -50%);
+          transform: scale(1) translate(-50%, -50%);
+}
+
+.glry-item:hover .portfolio-detail-title, .glry-item:hover .portfolio-buttons, .glry-item:hover .portfolio-item-img:after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.glry-item:hover .portfolio-detail-title {
+  top: 25%;
+}
+
+.glry-item:hover .portfolio-buttons {
+  margin-top: 0;
+}
+
+.portfolio-cobbles-item {
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio-cobbles-item img {
+  border-radius: 0 !important;
+}
+
+.portfolio-grid {
+  border-radius: 5px;
+}
+
+.portfolio-grid .portfolio-item-img, .portfolio-grid .portfolio-item-img img {
+  border-radius: 5px;
+}
+
+.portfolio-grid {
+  border-radius: 5px;
+}
+
+.portfolio-grid .portfolio-item-img, .portfolio-grid .portfolio-item-img img {
+  border-radius: 5px;
+}
+
+/* ---------------------------------------------------------------- */
+/* 07.Footer                               
+/* ---------------------------------------------------------------- */
+footer.footer {
+  padding: 30px;
+  background: #74BDCB;
+}
+
+footer.footer .copyright-text {
+  text-align: center;
+  opacity: 0.8;
+  color: #fff;
+}
+
+footer.footer .copyright-text span {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+/*# sourceMappingURL=style.css.map */

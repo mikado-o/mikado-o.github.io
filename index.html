@@ -1,7 +1,140 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="../../gtag/js.js?id=UA-158285582-11"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-158285582-11');
+    </script>
+    <!--/ Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Portofolio">
+    <meta name="keywords" content="gallery">
+    <meta name="author" content="ミカド">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ミカド</title>
+    <!--// Icons //-->
+    <link rel="stylesheet" href="fonts/font_awesome/css/all.css">
+    <!--// Google Fonts //-->
+    <link href="../../css.css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="../../css-1.css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap&subset=latin-ext" rel="stylesheet">
+    <!--// FrameWorks //-->
+    <link rel="stylesheet" href="css/frameworks.css">
+    <!--// Theme Stylesheet //-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
 <body>
-<h1>testing</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <!--// Page Wrapper Start //-->
+    <div class="page-wrapper">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="font-family: poppins; font-weight: 600;">
+            <a class="navbar-brand" href="#">ミカド</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: end;">
+                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <!--// Portfolio Masonry Start //-->
+                <section class="section matychale-gallery-masonry pb-minus-70">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-7">
+                                <div class="section-heading">
+                                    <h2 class="section-title">Portofolio</h2>
+                                </div>
+                            </div>
+                            <!--// .col //-->
+                        </div>
+                        <!--// .row //-->
+                        <div class="gallery-filter-btn-wrapper">
+                            <div class="portfolio-filter" style="font-weight: 700;">
+                                <a href="#0" data-gallery-filter="*" class="current">All</a>
+                                <a href="#0" data-gallery-filter=".web">Web</a>
+                                <a href="#0" data-gallery-filter=".logo">Logo</a>
+                                <a href="#0" data-gallery-filter=".branding">Branding</a>
+                            </div>
+                        </div>
+                        <!--// .row //-->
+                        <div class="portfolio-masonry-wrap row" id="card-list">
+                            <!-- jquery -->
+                        </div>
+                        <!--// .row //-->
+                    </div>
+                    <!--// .container //-->
+                </section>
+                <!--// Portfolio Masonry End //-->
+            </div>
+
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <section class="section matychale-gallery-masonry pb-minus-70">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-7">
+                                <div class="section-heading">
+                                    <h2 class="section-title">About Me</h2>
+                                </div>
+                            </div>
+                            <!--// .col //-->
+                        </div>
+                        <!--// .row //-->
+                        <div class="gallery-filter-btn-wrapper">
+                            <div class="portfolio-filter">
+                                <a href="#0" data-gallery-filter="*" class="current">All</a>
+                                <a href="#0" data-gallery-filter=".web">Web</a>
+                                <a href="#0" data-gallery-filter=".logo">Logo</a>
+                                <a href="#0" data-gallery-filter=".branding">Branding</a>
+                            </div>
+                        </div>
+                        <!--// .row //-->
+                        <div class="portfolio-masonry-wrap row">
+                            <!-- jquery -->
+                        </div>
+                        <!--// .row //-->
+                    </div>
+                    <!--// .container //-->
+                </section>
+            </div>
+        </div>
+
+    </div>
+    <!--// Page Wrapper End //-->
+
+    <!--// Footer Start //-->
+    <footer class="footer">
+        <div class="container">
+            <p class="copyright-text">© Copyright<span id="fullYearCopyright"></span>Design with By AipThemes</p>
+        </div>
+    </footer>
+    <!--// Footer End //-->
+
+    <!--// JQuery //-->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!--// Plugins //-->
+    <script src="js/plugins.js"></script>
+    <!--// Theme JS //-->
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/data.json"></script>
+    <script src="js/script.js"></script>
+
 </body>
+
 </html>
