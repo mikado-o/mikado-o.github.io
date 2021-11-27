@@ -36,7 +36,7 @@ let card = [
 		link: '#0',
 	},
 	{
-		tag: 'Logo',
+		tag: 'logo',
 		gambar: 'mustajab-motor.png',
 		deskripsi: 'Sticker Mustajab Motor',
 		link: '#0',

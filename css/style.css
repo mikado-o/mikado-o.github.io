@@ -393,6 +393,8 @@ p {
 footer.footer {
   padding: 20px;
   background: #EBEBEB;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 footer.footer .copyright-text {
