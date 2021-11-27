@@ -143,8 +143,8 @@ p {
 }
 
 .section .section-heading .section-title:after {
-  width: 100px;
-  height: 8px;
+  width: 80px;
+  height: 9.5px;
   background: #e0e0e0;
   bottom: 0;
 }
@@ -238,7 +238,7 @@ p {
 
 .gallery-filter-btn-wrapper a {
   display: inline-block;
-  padding: 11px 22px;
+  padding: 11px 30px;
   background: #fff;
   color: #74BDCB;
   /*border: 2px solid #74BDCB;*/
@@ -391,14 +391,15 @@ p {
 /* 07.Footer                               
 /* ---------------------------------------------------------------- */
 footer.footer {
-  padding: 30px;
-  background: #74BDCB;
+  padding: 20px;
+  background: #EBEBEB;
 }
 
 footer.footer .copyright-text {
   text-align: center;
-  opacity: 0.8;
-  color: #fff;
+  color: #1a1a1a;
+  font-weight: bold;
+  font-family: monospace;
 }
 
 footer.footer .copyright-text span {

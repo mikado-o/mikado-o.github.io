@@ -2,8 +2,5 @@ let card = [
 	{
 		tag: 'web',
 		gambar: 'portfolio_masonry_01.png'
-	},
-	{
-		tag: 'logo'
-	},
+	}
 ]
