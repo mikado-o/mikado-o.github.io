@@ -1,6 +1,74 @@
 let card = [
 	{
-		tag: 'web',
-		gambar: 'portfolio_masonry_01.png'
-	}
+		tag: 'ilustrasi',
+		gambar: 'boku.png',
+		deskripsi: '僕～ぼく',
+		link: '#0',
+	},
+	{
+		tag: 'desain',
+		gambar: 'countdown-retas-2019.png',
+		deskripsi: 'Countdown Retas 2019',
+		link: '#0',
+	},
+	{
+		tag: 'logo',
+		gambar: 'karca2020.png',
+		deskripsi: 'Logo Karca 2020',
+		link: '#0',
+	},
+	{
+		tag: 'xd',
+		gambar: 'alarm.png',
+		deskripsi: 'Alarm Kalkulator',
+		link: 'https://drive.google.com/file/d/1Eu_WwSL3-NyUYkBB1FauUX0uyJmpcxmx/view?usp=sharing',
+	},
+	{
+		tag: 'desain',
+		gambar: 'baju-retas.png',
+		deskripsi: 'Baju Retas 2019',
+		link: '#0',
+	},
+	{
+		tag: 'logo',
+		gambar: 'beppa-md.png',
+		deskripsi: 'Beppa MD Logo',
+		link: '#0',
+	},
+	{
+		tag: 'Logo',
+		gambar: 'mustajab-motor.png',
+		deskripsi: 'Sticker Mustajab Motor',
+		link: '#0',
+	},
+	{
+		tag: 'desain',
+		gambar: 'countdown-retas-2019.png',
+		deskripsi: 'Countdown Retas 2019',
+		link: '#0',
+	},
+	{
+		tag: 'logo',
+		gambar: 'karca2020.png',
+		deskripsi: 'Logo Karca 2020',
+		link: '#0',
+	},
+	{
+		tag: 'xd',
+		gambar: 'alarm.png',
+		deskripsi: 'Alarm Kalkulator - Adobe XD',
+		link: 'https://drive.google.com/file/d/1Eu_WwSL3-NyUYkBB1FauUX0uyJmpcxmx/view?usp=sharing',
+	},
+	{
+		tag: 'desain',
+		gambar: 'baju-retas.png',
+		deskripsi: 'Baju Retas 2019',
+		link: '#0',
+	},
+	{
+		tag: 'logo',
+		gambar: 'beppa-md.png',
+		deskripsi: 'Beppa MD Logo',
+		link: '#0',
+	},
 ]
