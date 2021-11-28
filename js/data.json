@@ -42,6 +42,12 @@ let card = [
 		link: '#0',
 	},
 	{
+		tag: 'ilustrasi',
+		gambar: 'kano.png',
+		deskripsi: '彼女',
+		link: '#0',
+	},
+	{
 		tag: 'logo',
 		gambar: 'mustajab-motor.png',
 		deskripsi: 'Sticker Mustajab Motor',
