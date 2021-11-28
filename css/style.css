@@ -359,7 +359,7 @@ p {
 }
 
 .glry-item:hover .portfolio-buttons {
-  margin-top: 0;
+  margin-top: 20px;
 }
 
 .portfolio-cobbles-item {
