@@ -31,7 +31,7 @@ let card = [
 	},
 	{
 		tag: 'foto',
-		gambar: 'Roterdam.jpeg',
+		gambar: 'roterdam.jpeg',
 		deskripsi: 'Fort Rotterdam',
 		link: '#0',
 	},
