@@ -14,7 +14,7 @@ let card = [
 	{
 		tag: 'logo',
 		gambar: 'retas2019.png',
-		deskripsi: 'Retas Event 2019',
+		deskripsi: 'RETAS 2019 Logo',
 		link: '#0',
 	},
 	{
@@ -24,9 +24,15 @@ let card = [
 		link: '#0',
 	},
 	{
+		tag: 'video',
+		gambar: 'kalla-talent-hunt.png',
+		deskripsi: 'Kalla Talent Hunts',
+		link: 'https://drive.google.com/file/d/1XRpVr_8tcL7GEZ6px2vlY3edj7FTQjKz/view?usp=sharing',
+	},
+	{
 		tag: 'desain',
 		gambar: 'baju-retas.png',
-		deskripsi: 'Baju Retas 2019',
+		deskripsi: 'RETAS 2019 T-Shirt',
 		link: '#0',
 	},
 	{
@@ -74,7 +80,43 @@ let card = [
 	{
 		tag: 'desain',
 		gambar: 'countdown-retas-2019.png',
-		deskripsi: 'Countdown Retas 2019',
+		deskripsi: 'Countdown RETAS 2019',
+		link: '#0',
+	},
+	{
+		tag: 'desain',
+		gambar: 'famgat2019.jpg',
+		deskripsi: 'Family Gathering TKJ 2019',
+		link: '#0',
+	},
+	{
+		tag: 'desain',
+		gambar: 'pamflet-retas-2019.png',
+		deskripsi: 'RETAS 2019 Flyer',
+		link: '#0',
+	},
+	{
+		tag: 'desain',
+		gambar: 'sedekah-kalla.png',
+		deskripsi: 'Kalla Group Sedekah',
+		link: '#0',
+	},
+	{
+		tag: 'desain',
+		gambar: 'seminar-retas-2019.png',
+		deskripsi: 'RETAS 2019 Flyer',
+		link: '#0',
+	},
+	{
+		tag: 'ilustrasi',
+		gambar: 'tsumamare.png',
+		deskripsi: 'つままれ PNUP',
+		link: '#0',
+	},
+	{
+		tag: 'desain',
+		gambar: 'welcome-board-kalla.png',
+		deskripsi: 'Kalla Group Welcome Onboard',
 		link: '#0',
 	},
 ]

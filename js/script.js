@@ -13,7 +13,7 @@ card.forEach(function(item){
 		        <a href="img/portfolio/${item.gambar}" class="portfolio-zoom-link">
 		            <i class="fas fa-search"></i>
 		        </a>
-		        <a href="${item.link}" class="portfolio-detail-link">
+		        <a href="${item.link}" class="portfolio-detail-link" target="_blank" rel="noopener noreferrer">
 		            <i class="fas fa-link"></i>
 		        </a>
 		    </div>
